@@ -11,6 +11,8 @@ class Cesar:
         position= alphabet.find(letter)
         position= (position - rotation) % 26
         deciphered += alphabet[position]
+      else:
+        deciphered += letter
     return deciphered
 
         
